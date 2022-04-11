@@ -7,9 +7,9 @@
 		<class>entity.User</class>
 		<class>entity.Cart</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=WineMarket"/>
-			<property name="javax.persistence.jdbc.user" value="sa"/>
-			<property name="javax.persistence.jdbc.password" value="123"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://wine-market.cquyqmxzv0oi.ap-southeast-1.rds.amazonaws.com;databaseName=WineMarket"/>
+			<property name="javax.persistence.jdbc.user" value="admin"/>
+			<property name="javax.persistence.jdbc.password" value="admin123"/>
 			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
 		</properties>
 	</persistence-unit>
